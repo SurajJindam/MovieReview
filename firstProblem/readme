@@ -1,0 +1,11 @@
+This program is written in Java
+
+Compilation : javac Solution.java
+
+Execution : java Solution
+
+->First line of input : Enter n
+
+->Second line of input : Enter n-1 numbers
+
+->Output : The missing number from 1 to n which is not entered.
