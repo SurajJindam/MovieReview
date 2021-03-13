@@ -5,6 +5,8 @@ Assignment:
 
 1. Write a console Application in C# where first line of input has an integer "n" and next line of input has "n-1" space separated integers having value between 1 to n and no number is repeating. Now you have to find which number is missing.
 
+Fyi you can use any language in first question.
+
 Soln.: The code is written in Java. 
 
 Logic : The sum of consecutive numbers is calculated and subtracted with the sum of entered numbers.
