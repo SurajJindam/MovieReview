@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+
+  html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    width:100%;
+  }
+
+  body {
+    /* background-image: url('bg.jpeg'); */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: black;
+    line-height: 1.9;
+    background-color: white;
+  }
+
+  .header{
+    display:flex;
+    height:9rem;
+    /* border:5px solid black; */
+    padding:2rem;
+}
+
+.menu-options{
+    padding-top:1rem;
+    text-decoration: none;
+    color:black;
+    font-size: 1.5vw;
+    margin-left:8%;
+}
+
+.menu-options:hover{
+    transform:translate(0,-1rem);
+  }
+
+h1{
+    font-size: 2vw;
+    color:black;
+    padding-left: 1rem;
+    padding-right: 10rem;
+}
+
+p{
+    font-size: 1.5vw;
+}
+
+.welcome-text{
+    /* border:5px solid black; */
+    padding-left:3rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.error{
+    width:30%;
+    background-color:#FFD6D4;
+    margin :auto;
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  .success{
+    width:30%;
+    background-color:#95D797;
+    margin :auto;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+.mid-container{
+    /* border:5px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+  }
+
+.movie{
+    width:25rem;
+    background-color:whitesmoke ;
+    margin:0 0 3rem 5rem;
+    height:50rem;
+}
+
+.rating{
+    font-size: 2rem;
+    color:black
+}
+
+.movie-name{
+    font-size: 3rem;
+    color:black;
+}
+
+.movie-image{
+    height:30rem;
+    width:25rem;
+}
+
+.user-rating{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    width:20rem;
+    height:3rem;
+    font-weight: 600;
+}
+
+.rate-button{
+    font-size: 2rem;
+    padding:1rem 2rem;
+    margin-left:7rem;
+}
+
+button:hover{
+    background-color: #4CAF50;
+    color:white;
+    cursor: pointer;
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+.after_rating{
+    position:relative;
+    top:-8rem;
+    left:3rem;
+    height:5rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: whitesmoke;
+}
+
+hr{
+    height: 50rem;
+}
+
+.logout-highlight{
+    color:red;
+}
